@@ -28,5 +28,5 @@ jobs:
           context: .
           platforms: linux/arm64
           push: true
-          tags: DOCKER_HUB_USERNAME/YOUR_IMAGE_NAME:latest
+          tags: DOCKER_HUB_USERNAME/devdocs:latest
           file: ./Dockerfile
